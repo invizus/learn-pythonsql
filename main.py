@@ -7,6 +7,6 @@ class Employee:
     def info(self):
         return f"{self.name} {self.department}"
 
-#Smita = Employee(department="manager", name="Smita")
-Smita = Employee("smita", "manager")
-print(Smita.info())
+Messi = Employee(department="manager", name="Messi")
+#Messi = Employee("Messi", "manager")
+print(Messi.info())
